@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e5fe152-7a65-4f00-8757-3525e83aa7d0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>Network_Clients.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
-    <Compile Include="test.py">
+    <Compile Include="Name_Server_Lookup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network_Byte_Order.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network_Clients.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
