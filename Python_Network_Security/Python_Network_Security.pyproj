@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e5fe152-7a65-4f00-8757-3525e83aa7d0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Network_Clients.py</StartupFile>
+    <StartupFile>Forensic-Scripting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Forensic-Scripting.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main.py" />
     <Compile Include="Name_Server_Lookup.py">
       <SubType>Code</SubType>
@@ -30,6 +33,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Network_Clients.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Network_HTTP.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
